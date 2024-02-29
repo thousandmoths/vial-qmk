@@ -14,12 +14,13 @@ CONSOLE_ENABLE = no        # Console for debug
 COMMAND_ENABLE = no        # Commands for debug and configuration
 NKRO_ENABLE = yes           # Enable N-Key Rollover
 BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
+RGBLIGHT_ENABLE = yes
 AUDIO_ENABLE = no           # Audio output
 
 LAYOUTS = planck_mit ortho_4x12
 LAYOUTS_HAS_RGB = no
 
 # Disable unsupported hardware
-RGBLIGHT_SUPPORTED = no
+RGBLIGHT_SUPPORTED = yes
 AUDIO_SUPPORTED = no
 BACKLIGHT_SUPPORTED = no
